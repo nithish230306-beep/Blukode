@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Playfair+Display:ital,wght@0,600;1,400&family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syne:wght@700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #1a1a1a;
+    background-color: #f7f5f0;
+    text-align: left;
+}
+
+body {
+    background-image: url('your-image-filename.jpg');
+    background-size: cover;        /* Stretches the image to cover the whole screen */
+    background-position: center;   /* Keeps the center of the image in focus */
+    background-repeat: no-repeat;  /* Prevents the image from tiling */
+}
+header {
+    background-color: #1a1a1a;
+    color: #f7f5f0;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Syne', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+h2 {
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+p {
+    font-family: 'Playfair Display', serif;
+    font-size: 10px;
+    font-style: normal;
+}
+
+em {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+}
+
+strong {
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 15px 30px;
+    background-color: #53833d; /* optional: gives it a distinct background */
+    box-sizing: border-box;    /* ensures padding doesn't overflow the width */
+}
+
+nav p {
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around; /* spreads the text items evenly across the width */
+}
